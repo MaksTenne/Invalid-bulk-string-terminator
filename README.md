@@ -1,6 +1,6 @@
 # Invalid-bulk-string-terminator
 
-DragonflyDB with StackExchange.Redis: Invalid bulk string terminator reproduction.
+DragonflyDB with StackExchange.Redis: Invalid bulk string terminator exception reproduction. (https://github.com/dragonflydb/dragonfly/issues/4424)
 
 ## Reproduction
 Clone the repository and run the project.
