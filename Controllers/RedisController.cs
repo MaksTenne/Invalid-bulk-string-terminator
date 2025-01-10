@@ -8,7 +8,7 @@ namespace WebApplication1.Controllers
 	[Route("api/[controller]")]
 	public class RedisController(RedisHandler redisListHandler) : ControllerBase
 	{
-		[HttpPost("generate")]
+		[HttpGet("generate")]
 		public async Task GenerateDataAsync()
 		{
 			var companies = redisListHandler.GenerateCacheAsync(1075, 5);
